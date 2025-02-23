@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Linas Petkevičius - Bio & Research</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+        .header img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-right: 20px;
+            object-fit: cover;
+        }
+        .header-text {
+            flex: 1;
+        }
+        .description, .publications {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+        h1, h2 {
+            color: #2c3e50;
+            margin-top: 0;
+        }
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        td {
+            padding: 15px;
+            vertical-align: top;
+        }
+        .gif-column {
+            width: 20%;
+        }
+        .gif-column img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .content-column {
+            width: 80%;
+        }
+        @media (max-width: 700px) {
+            .header {
+                flex-direction: column;
+                text-align: center;
+            }
+            .header img {
+                margin: 0 0 20px 0;
+            }
+            .gif-column {
+                width: 100%;
+                text-align: center;
+            }
+            .content-column {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header with Photo and Short Description -->
+        <div class="header">
+            <img src="./imgs/linas-p-ok.jpeg" alt="Dr. Linas Petkevičius">
+            <div class="header-text">
+                <h1>Dr. Linas Petkevičius</h1>
+                <p>
+                    I'm research scientist at Vilnius University, where I lead software engineering department.
+
+                    I'm teaching Deep learning and Intro to Quantum computing at Vilnius University. I'm supervising students, leading research projects.<br>
+                </p>
+                <p style="text-align:center">
+                    <a href="mailto:linas.petkevicius@mif.vu.lt">Email</a> &nbsp;/&nbsp;
+                    <a href="https://scholar.google.com/citations?user=Avbysq0AAAAJ">Scholar</a> &nbsp;/&nbsp;
+                    <a href="https://twitter.com/dxlino">Twitter</a> &nbsp;/&nbsp;
+                    <a href="https://github.com/linas-p/">Github</a>
+                  </p>
+            </div>
+        </div>
+
+        <!-- Larger Description -->
+        <div class="description">
+            <h2>About Me</h2>
+            <p>
+                Working with deep learning and deep neural networks since my 2011. My work focuses on deep learning theory and applications, and I’ve contributed to advancements in outliers detection. 
+            </p>
+        </div>
+
+        <!-- Publications Table -->
+        <div class="publications">
+            <h2>Main publications</h2>
+            <table>
+                <tr>
+                    <td class="gif-column">
+                        <img src="./imgs/graphical_abstract_.png" alt="Publication 3 animation">
+                    </td>
+                    <td class="content-column">
+                        <strong>Title:</strong> <a href="https://doi.org/10.1109/ACCESS.2024.3366491" target="_blank"> Identification of algal blooms in lakes in the Baltic states using Sentinel-2 data and artificial neural networks  </a> (IEEE Access, 2024) <br>
+                        Dalia Grendaitė, <strong>Linas Petkevicius</strong><br>
+                        <strong>Summary:</strong> This work proposes remote monitoring techniques using satellite images and machine learning algorithms to predict chlorophyll α concentration in water bodies and identify algal blooms. The training and test dataset used in this study includes diverse range of lakes in Baltic countries. <br>
+                        <a href="https://doi.org/10.1109/ACCESS.2024.3366491" target="_blank">Read more</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="gif-column">
+                        <img src="./imgs/komur1-2024AIEEE17-large.gif" alt="Publication 3 animation">
+                    </td>
+                    <td class="content-column">
+                        <strong>Title:</strong> <a href="https://ieeexplore.ieee.org/abstract/document/10586705/" target="_blank"> Zero Shot Classification for Change Detection in Satellite Imagery  </a> (AIEEE, 2024) <br>
+                        Kürşat Kömürcü, <strong>Linas Petkevicius</strong><br>
+                        <strong>Summary:</strong> This research investigates the zero-shot classification using the Comparative Language-Image Pre-Training (CLIP) model for change detection in satellite imagery. <br>
+                        <a href="https://ieeexplore.ieee.org/abstract/document/10586705/" target="_blank">Read more</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="gif-column">
+                        <img src="./imgs/ia.png" alt="Publication 3 animation">
+                    </td>
+                    <td class="content-column">
+                        <strong>Title:</strong> <a href="https://ieeexplore.ieee.org/abstract/document/10354328/" target="_blank">Symbolic Neural Architecture Search for Differential Equations  </a> (IEEE Access, 2023) <br>
+                        Paulius Sasnauskas, <strong>Linas Petkevicius</strong><br>
+                        <strong>Summary:</strong> This paper propose the first use of symbolic integration that leverages the machine learning infrastructure, such as automatic differentiation, to find analytical approximations of ordinary and partial differential equations.<br>
+                        <a href="https://ieeexplore.ieee.org/abstract/document/10354328/" target="_blank">Read more</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="gif-column">
+                        <img src="./imgs/pdl.png" alt="Publication 2 animation">
+                    </td>
+                    <td class="content-column">
+                        <strong>Title:</strong> <a href="https://dl.acm.org/doi/fullHtml/10.1145/3469830.3470915" target="_blank">Probabilistic Deep Learning for Electric-Vehicle Energy-Use Prediction</a> (SSTD, 2021) <br>
+                        <strong>Linas Petkevicius</strong>, Simonas Saltenis, Alminas Civilis, Kristian Torp<br>
+                        <strong>Summary:</strong> This paper proposes a two-tier architecture using deep learning to predict electric vehicle route travel time and energy use, leveraging EV tracking data and contextual information. It explores various speed profile generation methods and probabilistic deep learning models for energy prediction, validated with real-world datasets.<br>
+                        <a href="https://dl.acm.org/doi/abs/10.1145/3469830.3470915" target="_blank">Read more</a>
+                    </td>
+                </tr>
+            </tr>
+
+            <tr>
+                <td class="gif-column">
+                    <img src="./imgs/10514_2021_9980_Fige_HTML.png" alt="Publication 3 animation">
+                </td>
+                <td class="content-column">
+                    <strong>Title:</strong> <a href="https://link.springer.com/article/10.1007/s10514-021-09980-x" target="_blank">Topological navigation graph framework </a> (Autonomous Robots, 2021) <br>
+                    Povilas Daniušis, Shubham Juneja, Lukas Valatka, <strong>Linas Petkevicius</strong><br>
+                    <strong>Summary:</strong> This paper propose topological navigation graph (TNG) framework. TNG is an imitation-learning-based topological navigation framework for navigating through environments with intersecting trajectories.<br>
+                    <a href="https://link.springer.com/article/10.1007/s10514-021-09980-x" target="_blank">Read more</a>
+                </td>
+            </tr>
+                <!-- Add more rows as needed -->
+                <tr>
+                    <td class="gif-column">
+                        <img src="./imgs/c.png" alt="Publication 3 animation">
+                    </td>
+                    <td class="content-column">
+                        <strong>Title:</strong> <a href="https://www.mdpi.com/2227-7390/8/12/2156" target="_blank">Multiple Outlier Detection Tests for Parametric Models</a> (Mathematics, 2020) <br>
+                        Vilijandas Bagdonavičius, <strong>Linas Petkevicius</strong><br>
+                        <strong>Summary:</strong> This paper propose a simple multiple outlier identification method for parametric location-scale and shape-scale models when the number of possible outliers is not specified.<br>
+                        <a href="https://www.mdpi.com/2227-7390/8/12/2156" target="_blank">Read more</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="gif-column">
+                        <img src="./imgs/olr.png" alt="Publication 3 animation">
+                    </td>
+                    <td class="content-column">
+                        <strong>Title:</strong> <a href="https://link.springer.com/article/10.1007%2Fs00184-019-00731-8" target="_blank">A new multiple outliers identification method in linear regression</a> (Metrika, 2020) <br>
+                        Vilijandas Bagdonavičius, <strong>Linas Petkevicius</strong><br>
+                        <strong>Summary:</strong> This paper propose new method for multiple outliers identification in linear regression models is developed. The method is based on a result giving asymptotic properties of extreme studentized residuals. <br>
+                        <a href="https://link.springer.com/article/10.1007%2Fs00184-019-00731-8" target="_blank">Read more</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
